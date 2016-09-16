@@ -1,0 +1,66 @@
+{
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "12.84 mg gmc", 
+    "commit": "7ecb5bdb289de56c4412597b050c7ac104ef0c75", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "65214", 
+    "increment": 9, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-285", 
+    "irradiation_level": "C", 
+    "irradiation_position": 2, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "felix", 
+    "material": "GroundmassConcentrate", 
+    "measurement": "felix_analysis400_120.py", 
+    "project": "IR939", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Ir939", 
+    "sample": "BBC-2", 
+    "spec_sha": "f5bf3da4c0acf4a6eb7e30b93900b20ca090f3ba", 
+    "timestamp": "2016-09-16T00:58:44.586438", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "a64768d2-6ad9-48d3-9527-c96940aa5838"
+}
